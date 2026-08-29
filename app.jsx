@@ -147,14 +147,14 @@ function SurpriseOverlay({ show, onClose, onOpenGallery, onOpenTime, onOpenCount
 }
 
 const STICKERS = [
-  { r: 'r1', gs: 'gs1', src: 'images/sticker-rose.png', photo: 'images/gallery/img2.jpg' },
-  { r: 'r2', gs: 'gs2', src: 'images/sticker-heart.png', photo: 'images/gallery/img1.jpg' },
-  { r: 'r3', gs: 'gs3', src: 'images/sticker-phone.png', photo: 'images/gallery/img3.jpg' },
-  { r: 'r4', gs: 'gs4', src: 'images/sticker-wave.png', photo: 'images/gallery/img4.jpg' },
-  { r: 'r5', gs: 'gs5', src: 'images/sticker-cry.png', photo: 'images/gallery/img5.jpg' },
-  { r: 'r6', gs: 'gs6', src: 'images/sticker-wink.png', photo: 'images/gallery/img6.jpg' },
-  { r: 'r7', gs: 'gs7', src: 'images/sticker-camera.png', photo: 'images/gallery/img8.jpg' },
-  { r: 'r8', gs: 'gs9', src: 'images/sticker-bowtie.png', photo: 'images/gallery/img7.jpg' },
+  { r: 'r1', gs: 'gs1', src: 'images/sticker-rose.png', photo: 'gallery/img2.jpg' },
+  { r: 'r2', gs: 'gs2', src: 'images/sticker-heart.png', photo: 'gallery/img1.jpg' },
+  { r: 'r3', gs: 'gs3', src: 'images/sticker-phone.png', photo: 'gallery/img3.jpg' },
+  { r: 'r4', gs: 'gs4', src: 'images/sticker-wave.png', photo: 'gallery/img4.jpg' },
+  { r: 'r5', gs: 'gs5', src: 'images/sticker-cry.png', photo: 'gallery/img5.jpg' },
+  { r: 'r6', gs: 'gs6', src: 'images/sticker-wink.png', photo: 'gallery/img6.jpg' },
+  { r: 'r7', gs: 'gs7', src: 'images/sticker-camera.png', photo: 'gallery/img8.jpg' },
+  { r: 'r8', gs: 'gs9', src: 'images/sticker-bowtie.png', photo: 'gallery/img7.jpg' },
 ];
 
 function GalleryOverlay({ show, onClose }) {
