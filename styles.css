@@ -148,6 +148,8 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.4s ease;
@@ -157,6 +159,15 @@
   .overlay.show{
     opacity: 1;
     pointer-events: auto;
+  }
+
+  .overlay.gallery-overlay{
+    align-items: flex-start;
+  }
+
+  .overlay.gallery-overlay .gallery-card{
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .letter{

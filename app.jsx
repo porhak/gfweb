@@ -153,13 +153,11 @@ const STICKERS = [
   { r: 'r4', gs: 'gs4', src: 'images/sticker-wave.png', photo: 'gallery/img4.jpg' },
   { r: 'r5', gs: 'gs5', src: 'images/sticker-cry.png', photo: 'gallery/img5.jpg' },
   { r: 'r6', gs: 'gs6', src: 'images/sticker-wink.png', photo: 'gallery/img6.jpg' },
-  { r: 'r7', gs: 'gs7', src: 'images/sticker-camera.png', photo: 'gallery/img8.jpg' },
-  { r: 'r8', gs: 'gs9', src: 'images/sticker-bowtie.png', photo: 'gallery/img7.jpg' },
 ];
 
 function GalleryOverlay({ show, onClose }) {
   return (
-    <div className={'overlay' + (show ? ' show' : '')} onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
+    <div className={'overlay gallery-overlay' + (show ? ' show' : '')} onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
       <div className="gallery-card">
         <div className="polaroid-grid">
           {STICKERS.map((s) => (
