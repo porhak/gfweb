@@ -293,7 +293,7 @@
   }
 
   .polaroid{
-    width: 150px;
+    width: 190px;
     background: #fff;
     border: 3px solid var(--gold-border);
     border-radius: 6px;
@@ -331,9 +331,12 @@
   }
 
   .placeholder-photo{
-    width: 134px;
-    height: 120px;
+    display: block;
+    width: 174px;
+    height: 155px;
     border-radius: 2px;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
     background: linear-gradient(to bottom, #bfe3fb 0%, #bfe3fb 62%, #9ed988 62%, #7fc766 100%);
   }
 
@@ -354,7 +357,7 @@
     .placeholder-photo{
       width: 100%;
       height: auto;
-      aspect-ratio: 134 / 120;
+      aspect-ratio: 174 / 155;
     }
   }
 
