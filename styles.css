@@ -342,7 +342,9 @@
 
   @media (max-width: 480px){
     .gallery-card{
-      padding: 46px 16px 60px;
+      padding: 40px 14px 50px;
+      margin: 0 10px;
+      max-width: 420px;
     }
 
     .polaroid-grid{
@@ -356,8 +358,8 @@
 
     .placeholder-photo{
       width: 100%;
-      height: auto;
-      aspect-ratio: 174 / 155;
+      height: 130px;
+      object-fit: cover;
     }
   }
 
